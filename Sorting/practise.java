@@ -30,30 +30,30 @@ public class practise {
       }
    }
 }
-public class practise{
-   public static void main(String[] args) { 
-         int[] arr={5,4,3,2,1};
+// public class practise{
+//    public static void main(String[] args) { 
+//          int[] arr={5,4,3,2,1};
          
-         sort(arr);
-       for(Integer i:arr){
-         System.out.print(i+" ");
-       }
-   }
-   static void sort(int[] arr){
-      for (int t=0;t<arr.length;t++){
-        for(int i=0;i<arr.length-1;i++)
-        {
-         int temp =0;
-         if(arr[i]>arr[i+1])
-         {
-            temp=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=temp;
-         }
-        }
-      }
-   }
-}
+//          sort(arr);
+//        for(Integer i:arr){
+//          System.out.print(i+" ");
+//        }
+//    }
+//    static void sort(int[] arr){
+//       for (int t=0;t<arr.length;t++){
+//         for(int i=0;i<arr.length-1;i++)
+//         {
+//          int temp =0;
+//          if(arr[i]>arr[i+1])
+//          {
+//             temp=arr[i];
+//             arr[i]=arr[i+1];
+//             arr[i+1]=temp;
+//          }
+//         }
+//       }
+//    }
+// }
 public class practise{
    public static void main(String[] args)
    {

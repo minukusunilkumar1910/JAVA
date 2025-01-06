@@ -139,7 +139,7 @@
 // }
 
 // —--------------------------------------
-// 3.prime num generator with given range
+// 3.prime num generator with given range of numbers
 
 // public class lab {
 
@@ -167,9 +167,10 @@
 //             }
 //          }
 //         }
+
 //     }
 
-// —--------------------------------------
+// —-----------------------------------------
 // 4.rectangle class
 
 // class lab
