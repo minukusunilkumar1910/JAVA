@@ -443,28 +443,30 @@
 //         }
 //     }
 // }
-    int n=11;
-    if(n<2)
-    {
-      System.out.println("Not Prime");
-      return;
-    }
-    boolean isPrime = true;
-    for(int i=2;i*i<=n ;i++)
-    {
-         if(n%i==0)
-         {
-            isPrime = false;
-            break;
-         }
-    }
+
+
+   //  int n=11;
+   //  if(n<2)
+   //  {
+   //    System.out.println("Not Prime");
+   //    return;
+   //  }
+   //  boolean isPrime = true;
+   //  for(int i=2;i*i<=n ;i++)
+   //  {
+   //       if(n%i==0)
+   //       {
+   //          isPrime = false;
+   //          break;
+   //       }
+   //  }
      
-    if(isPrime)
-    {
-      System.out.println("It is Prime");
-    }
-    else
-    {
-      System.out.println("It is not Prime");
-    }
-   }
+   //  if(isPrime)
+   //  {
+   //    System.out.println("It is Prime");
+   //  }
+   //  else
+   //  {
+   //    System.out.println("It is not Prime");
+   //  }
+   // }
