@@ -427,7 +427,7 @@
 
 
 
-<<<<<<< HEAD
+
 public class main {
     public static void main(String[] args) {
            int n=11;
@@ -456,7 +456,6 @@ public class main {
     }
     }
 }    
-=======
 // public class main {
 
 //     public static void main(String[] args) {
@@ -500,4 +499,3 @@ public class main {
    //    System.out.println("It is not Prime");
    //  }
    // }
->>>>>>> 278ad6c8dba066867d7e2ebb5b6ac30db9ef9806
