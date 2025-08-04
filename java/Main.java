@@ -1,7 +1,5 @@
 package java;
 
-import java.util.Scanner;
-
 /*
 import java.util.Scanner;
 
@@ -465,20 +463,43 @@ public class Main
    }
 }
 */
-public class Main{
-   public static void main(String[] args){
+// public class Main{
+//    public static void main(String[] args){
 
-Scanner ip = new Scanner(System.in);
-System.out.print("enter your name");
-String name =ip.nextLine();
+// Scanner ip = new Scanner(System.in);
+// System.out.print("enter your name");
+// String name =ip.nextLine();
 
-System.out.print("Age");
-int age=ip.nextInt();
-System.out.println("height");
-double height =ip.nextDouble();
+// System.out.print("Age");
+// int age=ip.nextInt();
+// System.out.println("height");
+// double height =ip.nextDouble();
 
-System.out.println("hello "+name+" welcome");
-System.out.println("Your age is "+age);
-System.out.println("Your height is "+height);
-   } 
+// System.out.println("hello "+name+" welcome");
+// System.out.println("Your age is "+age);
+// System.out.println("Your height is "+height);
+//    } 
+// }
+
+public class Main {
+
+   public static void main(String[] args) {
+      int n=0;
+
+      if(n<=0)
+      {
+         return;
+      }
+
+      for(int i=2;i*i<n/2;i++)
+      {
+        if(n%i == 0)
+        {
+         System.out.println("prime");
+        }
+      }
+
+
+   
+   }
 }
