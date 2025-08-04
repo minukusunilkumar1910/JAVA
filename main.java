@@ -427,19 +427,31 @@
 
 
 
-// public class main {
-
-//     public static void main(String[] args) {
-//         try {
-
-//             int a;
-//             Scanner sc =new Scanner(System.in);
-//             a=sc.nextInt();
-
-//             int s=2/0;
-            
-//         } catch (InputMismatchException | ArithmeticException e) {
-//             System.out.println(e.getClass());
-//         }
-//     }
-// }
+public class main {
+    public static void main(String[] args) {
+           int n=11;
+    if(n<2)
+    {
+      System.out.println("Not Prime");
+      return;
+    }
+    boolean isPrime = true;
+    for(int i=2;i*i<=n ;i++)
+    {
+         if(n%i==0)
+         {
+            isPrime = false;
+            break;
+         }
+    }
+     
+    if(isPrime)
+    {
+      System.out.println("It is Prime");
+    }
+    else
+    {
+      System.out.println("It is not Prime");
+    }
+    }
+}    
