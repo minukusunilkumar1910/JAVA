@@ -425,6 +425,33 @@
 //     }
 // }
 
+//  int nums = 430043;
+//  int k =2;
+//  String str = String.valueOf(nums);
+// //  System.out.println(str.charAt(2));
+
+//  int n = str.length();
+//  int i = 0;
+//  int j = i;
+//  int count = 0;
+// while(j<n)
+// {
+//    if(j-i+1 == k)
+//    {
+
+//       String sub = str.substring(i,j+1);
+//       int num = Integer.parseInt(sub);
+      
+//       if(num!=0 && nums%num ==0)
+//       {
+//          count++;
+//       }
+//       i++;
+//    }
+//    j++;
+
+// }
+// System.out.println(count);
 
 
 
