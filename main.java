@@ -16,7 +16,9 @@
 //       boolean g;
 //    }
 
-   
+
+
+
 // import java.util.Scanner;
 // public class lab {
 
