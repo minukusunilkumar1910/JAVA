@@ -502,5 +502,26 @@ public class main {
 //     }
 // }
 
+// int[] arr= {6,20,0};
+// int n =arr.length;
+
+// int evens = 0;
+// for(int i=0;i<n;i++)
+// {
+//   int num = arr[i];
+//   int count = 0;
+//   while(num > 0)
+//   {
+//     int last = num%10;
+//     count++;
+//     num/=10;
+//   }
+//   if(count%2 == 0 && count!=0)
+//   {
+//     evens++;
+//   }
+// }
+
+// System.out.println(evens);
 
    
